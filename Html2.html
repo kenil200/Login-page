@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Logine page</title>
+</head>
+<style>
+	body{
+		 font-family:calibri,helvetica sans-serif;
+		background-color: pink;
+	}
+	button{
+		background-color:#c6cbae;
+		width: 100%;
+		color: orange;
+		padding: 15px;
+		margin: 10px 0px ;
+		border: none;
+		cursor: pointer
+	}
+	form{
+		border: 3px solid#440606;
+	}
+	input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 4px 0;  
+        padding: 10px 10px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }
+	
+	button:hover{
+		opacity: 0.7;
+	}
+	.cancelbtn{
+		width: auto;
+		padding: 20px 18px;
+		margin: 10px 5px;
+
+	}
+	.cancelbtn
+	padding:25px;
+	background-color:lightblue;
+
+</style>
+<body>
+	<center><h1>student login form</h1><center>
+		<form>
+			<div class="container">
+			<label>username:</label>
+				<input type="text"placeholder="enter username"name="username"required>
+				<label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+
+					<input type="checkbox"checked">remember me
+
+					<button type="button"class="cancelbtn">cancel
+						forgot <a href="#"></a>
+</div>
+</form>						
+</body>
+</html>
